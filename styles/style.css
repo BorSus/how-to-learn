@@ -36,7 +36,6 @@
   font-size: 102px;
   font-weight: 600;
   margin: 0px 0px 0px 64px;
- 
   padding: 0;
   z-index: 3;
 }
@@ -86,7 +85,6 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
-  
 }
 .two-columns__brief {
   color: #2f80ed;
@@ -230,7 +228,6 @@
   background-image: url('../images/kaufman-triangle.svg');
   background-size: 877px 877px;
   background-repeat: no-repeat;
-  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -267,7 +264,6 @@
   padding: 60px 0px 40px;
   margin: 0px;
   /*Не нужно задавать секции отрицательный z-index. ВЫПОЛНЕНО*/ 
-  
   background-color: #1f1f1f;
   min-height: 350px;
 }
