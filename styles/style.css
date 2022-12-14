@@ -8,11 +8,13 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
 .logo {
   /*==логотип яндекс практикум*/
   height: 32px;
   width: 228px;
 }
+
 /*============================header===============================*/
 .header {
   display: flex;
@@ -24,11 +26,13 @@
   min-height: 600px;
   max-height: 756px;
 }
+
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
 }
+
 .header__title {
   /*этот элемент не должен быть абсолютно спозиционирован ВЫПОЛНЕНО*/
   width: 730px;
@@ -39,6 +43,7 @@
   padding: 0;
   z-index: 3;
 }
+
 .header__subtitle {
   margin: 0;
   padding: 0;
@@ -51,10 +56,12 @@
   font-weight: 400;
   z-index: 3;
 }
+
 .header__link {
   text-decoration: none;
   color: #2f80ed;
 }
+
 .header__main-illustration {
   position: absolute;
   right: 0px;
@@ -63,6 +70,7 @@
   height: 608px;
   z-index: 2;
 }
+
 .header__square-pic {
   z-index: 1;
   position: absolute;
@@ -72,20 +80,23 @@
   height: 568px;
   width: 568px;
 }
+
 /*============================content===============================*/
 
 /*=========================description================================*/
 .description {
   padding: 100px 0px 0px;
 }
+
 .description__two-columns {
   /* не нужно ограничивать высоту элемента ВЫПОЛНЕНО*/
   /* Строка "Используйте min-height с осторожностью" 6 страница в брифе*/
- margin: 0px auto;
+  margin: 0px auto;
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
+
 .two-columns__brief {
   color: #2f80ed;
   line-height: 1.2;
@@ -113,6 +124,7 @@
   font-size: 24px;
   font-weight: 400;
 }
+
 .two-columns__paragraph:last-child {
   margin-bottom: 0px;
 }
@@ -125,7 +137,8 @@
 .digits {
   padding: 100px 0px;
   margin: 0;
-  }
+}
+
 .section-title {
   z-index: 2;
   line-height: 1.15;
@@ -135,6 +148,7 @@
   text-align: center;
   margin: 0px auto 20px;
 }
+
 .section-subtitle {
   z-index: 2;
   line-height: 34px;
@@ -144,6 +158,7 @@
   margin: 0px auto;
   width: 60%;
 }
+
 .table {
   display: flex;
   align-items: baseline;
@@ -152,12 +167,14 @@
   width: 1100px;
   margin: 0px auto;
 }
+
 .table__cell {
   margin: 60px 0px 0px;
   padding: 0px;
   list-style-type: none;
   width: 250px;
 }
+
 .table__heading {
   margin: 0px;
   padding: 0px;
@@ -165,6 +182,7 @@
   font-size: 24px;
   font-weight: 600;
 }
+
 .table__text {
   padding: 0px;
   margin: 20px 0 0;
@@ -172,6 +190,7 @@
   font-size: 18px;
   font-weight: 400;
 }
+
 /*=============================feynman============================*/
 .feynman {
   display: flex;
@@ -180,12 +199,13 @@
   position: relative;
   padding: 0px;
   margin: 0px auto 0px;
-    min-height: 890px;
-/*Лучше не ограничивать высоту, а использовать min-height. ВЫПОЛНЕНО*/
+  min-height: 890px;
+  /*Лучше не ограничивать высоту, а использовать min-height. ВЫПОЛНЕНО*/
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: left bottom;
 }
+
 .feynman__title {
   margin: 100px auto 0px;
   padding: 0;
@@ -194,7 +214,8 @@
   font-size: 120px;
   font-weight: 600;
   width: 648px;
-  }
+}
+
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
@@ -202,6 +223,7 @@
   text-align: center;
   margin: 70px 0px 0px;
 }
+
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
@@ -222,6 +244,7 @@
   overflow: hidden;
   margin: 0px auto;
 }
+
 .kaufman__triangle {
   padding: 0;
   margin: 0;
@@ -235,14 +258,16 @@
   right: -210px;
   z-index: 1;
 }
+
 .section-title_them_dark {
   position: relative;
   z-index: 2;
   color: white;
 }
+
 .section-subtitle_them_dark {
   z-index: 2;
- position: relative;
+  position: relative;
   color: white;
 }
 
@@ -263,10 +288,11 @@
   display: flex;
   padding: 60px 0px 40px;
   margin: 0px;
-  /*Не нужно задавать секции отрицательный z-index. ВЫПОЛНЕНО*/ 
+  /*Не нужно задавать секции отрицательный z-index. ВЫПОЛНЕНО*/
   background-color: #1f1f1f;
   min-height: 350px;
 }
+
 .footer__columns {
   margin: 0px auto;
   width: 90%;
@@ -274,32 +300,39 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .footer__column {
   color: white;
   display: flex;
   flex-direction: column;
 }
+
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
 }
+
 .logo_place_footer {
   align-self: flex-start;
 }
+
 .footer__author {
   margin: 18px 0px;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
 }
+
 .footer__column_content_info {
   margin-bottom: 16px;
 }
+
 .footer__columns_content_cocial {
   margin-bottom: 16px;
 }
+
 .footer__column-links {
   padding: 0;
   text-decoration: none;
@@ -309,6 +342,7 @@
   font-size: 18px;
   font-weight: 400;
 }
+
 .footer__column-heading {
   margin: 0px 0px 20px;
   padding: 0;
@@ -316,6 +350,7 @@
   font-size: 18px;
   font-weight: 600;
 }
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
