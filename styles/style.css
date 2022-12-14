@@ -34,7 +34,6 @@
 }
 
 .header__title {
-  /*этот элемент не должен быть абсолютно спозиционирован ВЫПОЛНЕНО*/
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -89,8 +88,6 @@
 }
 
 .description__two-columns {
-  /* не нужно ограничивать высоту элемента ВЫПОЛНЕНО*/
-  /* Строка "Используйте min-height с осторожностью" 6 страница в брифе*/
   margin: 0px auto;
   width: 80%;
   display: flex;
@@ -166,6 +163,8 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 0px auto;
+  /*списку ul  нужно сбросить встроенный паддинг ВЫПОЛНЕНО*/
+  padding: 0;
 }
 
 .table__cell {
@@ -200,7 +199,6 @@
   padding: 0px;
   margin: 0px auto 0px;
   min-height: 890px;
-  /*Лучше не ограничивать высоту, а использовать min-height. ВЫПОЛНЕНО*/
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -237,7 +235,6 @@
 
 /*=============================kaufman============================*/
 .kaufman {
-  /*Не нужно задавать секции отрицательный z-index. ВЫПОЛНЕНИЕ*/
   position: relative;
   padding: 90px 0;
   background-color: #1f1f1f;
@@ -272,7 +269,6 @@
 }
 
 .table__cell_theme_dark {
-  /*Не нужно задавать секции отрицательный z-index ВЫПОЛНЕНО*/
   position: relative;
   z-index: 2;
   width: 200px;
@@ -283,12 +279,10 @@
 
 /*=============================footer============================*/
 .footer {
-  /*Высота футера больше, чем нужно по брифу. ВЫПОЛНЕНО*/
   box-sizing: border-box;
   display: flex;
   padding: 60px 0px 40px;
   margin: 0px;
-  /*Не нужно задавать секции отрицательный z-index. ВЫПОЛНЕНО*/
   background-color: #1f1f1f;
   min-height: 350px;
 }
@@ -337,7 +331,6 @@
   padding: 0;
   text-decoration: none;
   color: white;
-  /* отступ не нужен согласно брифу ВЫПОЛНЕНО*/
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
