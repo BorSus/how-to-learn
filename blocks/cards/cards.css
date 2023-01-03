@@ -1,8 +1,8 @@
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill,240px);
+  grid-template-columns: repeat(auto-fill, 240px);
   align-items: baseline;
-column-gap: 100px;
+  column-gap: 100px;
   width: 920px;
   margin: 0 auto;
   /*Обратите внимание, что у списков следует убрать стандартные стили: margin, padding, list-style-type*/

@@ -9,6 +9,7 @@
   text-decoration: none;
   transition: opacity .5s linear;
 }
+
 /*ссылки на странице при наведении мыши должны плавно становиться немного прозрачными*/
 .feynman__link:hover {
   opacity: 0.5;

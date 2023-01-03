@@ -7,8 +7,8 @@
     transform: rotate(360deg);
   }
 }
- /*запуск анимации*/
- .rotation{
-  animation: rotation 20s linear infinite;
- }
 
+/*запуск анимации*/
+.rotation {
+  animation: rotation 20s linear infinite;
+}
