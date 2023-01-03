@@ -50,10 +50,13 @@
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
-@import url(../blocks/__heading/table__heading.css);
-@import url(../blocks/table/__heading/_theme/table__cell_theme_dark.css);
+/*Папку БЭМ элемента __heading  нужно хранить в папке БЭМ блока table ВЫПОЛНЕНО*/
+@import url(../blocks/table/__heading/table__heading.css);
+/*В файловой структуре для хранения модификатора от БЭМ элемента table__heading нужно хранить файл модификатора от элемента table__heading ВЫПОЛНЕНО*/
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__text/_theme/table___text_theme_dark.css);
+/*В наименовании файла допущена опечатка, блок от элемента следует отделать двумя нижними подчеркиваниями ВЫПОЛНЕНО*/
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /*========import styles page=============*/
 @import url(../blocks/page/page.css);

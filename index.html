@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <!--Файл normalize.css нужно подключить в файле index.css, тут в подключении нет необходимости ВЫПОЛНЕНО-->
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -15,14 +14,12 @@
     <header class="header">
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="логотип ЯНДЕКС ПРАКТИКУМ">
       <h1 class="header__title">Научиться учиться</h1>
-      <!--Для подзаголовков хорошей практикой является использование элемента <p>.-->
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
         <a href="#" class="header__link" target="_blank">Узнать&rarr;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="картина 'Опять двойка'">
-      <!--Нужно добавить микс rotation, в нем нужно реализовать анимацию ВЫПОЛНЕНО-->
       <div class="header__square-pic rotation"></div>
     </header>
 
@@ -30,7 +27,6 @@
     <main class="content">
       <!--================================description========================= -->
       <section class="description">
-        <!--Можно использовать тег article ВЫПОЛНЕНО-->
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -53,17 +49,14 @@
           </div>
         </article>
       </section>
-      <!--================================techniques========================= -->
 
+      <!--================================techniques========================= -->
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
-        <!--Для подзаголовков хорошей практикой является использование элемента <p> ВЫПОЛНЕНО-->
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <!--Для улучшения семантики перечисляемые блоки можно выделить в список ul.ВЫПОЛНЕНО -->
         <ul class="cards">
           <li class="cards__item">
             <img src="./images/cards-attention.png" alt="книга в руках" class="cards__image">
-            <!--Нужно пересмотреть уровень заголовка исходя из структуры страницы ВЫПОЛНЕНО-->
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">
               Глубокие знания возникают, если чередовать сфокусированное и
@@ -73,7 +66,6 @@
 
           <li class="cards__item">
             <img src="./images/cards-recall.png" alt="скульптура мальчик со сверелью" class="cards__image">
-            <!--Нужно пересмотреть уровень заголовка исходя из структуры страницы ВЫПОЛНЕНО-->
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">
               Вспоминайте изученное — это позволит соединить разрозненные
@@ -83,7 +75,6 @@
 
           <li class="cards__item">
             <img src="./images/cards-interliving.png" alt="станция метро мировой торговый центр" class="cards__image">
-            <!--Нужно пересмотреть уровень заголовка исходя из структуры страницы ВЫПОЛНЕНО-->
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">
               Изучайте несколько навыков одновременно, они обогащают друг
@@ -93,7 +84,6 @@
 
           <li class="cards__item">
             <img src="./images/cards-question.png" alt="Городская библиотека Штутгарта" class="cards__image">
-            <!--Нужно пересмотреть уровень заголовка исходя из структуры страницы ВЫПОЛНЕНО-->
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">
               Слушая преподавателя, придумывайте хороший вопрос, который вас
@@ -103,7 +93,6 @@
 
           <li class="cards__item">
             <img src="./images/cards-competence.png" alt="стопка книг на руке" class="cards__image">
-            <!--Нужно пересмотреть уровень заголовка исходя из структуры страницы ВЫПОЛНЕНО-->
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">
               Повторите про себя, запишите, расскажите другу: вам только
@@ -115,7 +104,6 @@
       <!--============================video============================= -->
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
-        <!--Для подзаголовков хорошей практикой является использование элемента <p> ВЫПОЛНЕНО-->
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
           <iframe src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen class="video__iframe">
@@ -126,7 +114,6 @@
       </section>
       <!--============================oakley============================= -->
       <section class="oakley">
-        <!--Можно использовать тег article ВЫПОЛНЕНО-->
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
@@ -143,11 +130,9 @@
           </div>
         </article>
       </section>
-
       <!--============================feynman============================= -->
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <!--Для подзаголовков хорошей практикой является использование элемента <p> ВЫПОЛНЕНО-->
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="#" target="_blank">Подробнее&rarr;</a>
       </section>
@@ -155,7 +140,6 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <!--Для подзаголовков хорошей практикой является использование элемента <p> ВЫПОЛНЕНО-->
         <p class="section-subtitle">Про учёбу и мозг</p>
 
         <ul class="table">
@@ -216,7 +200,6 @@
         <div class="khan__container">
           <h2 class="khan__author">Салман Хан</h2>
           <h3 class="khan__title">Весь мир — школа</h3>
-          <!--Для цитат будет круто использовать тег <blockquote> ВЫПОЛНЕНО-->
           <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов
             студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
@@ -224,7 +207,6 @@
             получить навыки и знания, которые приносят успех в школе, карьере
             и жизни.
           </blockquote>
-          <!--Тут должен быть заголовок. Уровень заголовка (h1-h6) нужно определить исходя из структуры страницы.ВЫПОЛНЕНО-->
           <h4 class="khan__quote-author">Джордж Лукас</h4>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -236,16 +218,12 @@
       </section>
       <!--============================kaufman============================= -->
       <section class="kaufman">
-        <!--В наименовании ключа модификатора допущена опечатка them => theme ВЫПОЛНЕНО-->
         <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
-        <!--В наименовании ключа модификатора допущена опечатка them => theme ВЫПОЛНЕНО-->
-        <!--Для подзаголовков хорошей практикой является использование элемента <p> ВЫПОЛНЕНО-->
         <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
         </p>
-        <!--Для улучшения семантики перечисляемые блоки можно выделить в список ul.ВЫПОЛНЕНО -->
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -308,7 +286,6 @@
             </p>
           </li>
         </ul>
-        <!--Нужно добавить микс rotation, в нем нужно реализовать анимацию ВЫПОЛНЕНО-->
         <div class="kaufman__triangle rotation"></div>
       </section>
 
@@ -317,11 +294,9 @@
         <h2 class="section-title">
           Полезные ресурсы
         </h2>
-        <!--Для подзаголовков хорошей практикой является использование элемента <p> ВЫПОЛНЕНО-->
         <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
         </p>
-        <!--Для улучшения семантики перечисляемые блоки можно выделить в список ul.ВЫПОЛНЕНО -->
         <ul class="resources__logo-zone">
           <li>
             <a href="#" class="resources__link" target="_blank">
@@ -346,7 +321,6 @@
         </ul>
       </section>
     </main>
-    <!--Контентное содержимое страницы нужно обернуть тегом <main> (всё кроме header и  footer) ВЫПОЛНЕНО-->
     <!--============================footer============================= -->
     <footer class="footer">
       <div class="footer__columns">
@@ -357,7 +331,6 @@
 
         <div class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
-          <!--Для ссылок нужна обертка  - тег <nav>. с классом из брифу блок footer элемент column-links ВЫПОЛНЕНО-->
           <nav class="footer__column-links">
             <a class="footer__column-link" href="#" target="_blank">Главная</a>
             <a class="footer__column-link" href="#" target="_blank">Концепция</a>
@@ -365,10 +338,8 @@
           </nav>
         </div>
 
-        <!--В наименовании значения модификатора допущена опечатка ВЫПОЛНЕНО-->
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
-          <!--Для ссылок нужна обертка  - тег <nav>. с классом из брифу блок footer элемент column-links ВЫПОЛНЕНО-->
           <nav class="footer__column-links">
             <a class="footer__column-link" href="https://www.youtube.com" target="_blank">
               <img class="footer__social-icon" src="./images/youtube-icon.svg"
