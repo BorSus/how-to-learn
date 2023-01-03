@@ -1,4 +1,5 @@
-.footer__column_content_info {
+.cards__item {
+  width: 240px;
   margin: 0px;
   padding: 0px;
 }

@@ -1,0 +1,7 @@
+.table__cell {
+  margin: 60px 0px 0px;
+  /*Обратите внимание, что у списков следует убрать стандартные стили: margin, padding, list-style-type*/
+  padding: 0px;
+  list-style-type: none;
+  width: 250px;
+}

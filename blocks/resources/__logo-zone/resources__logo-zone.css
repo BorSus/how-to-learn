@@ -1,0 +1,9 @@
+.resources__logo-zone {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto 217px;
+  width: 1100px;
+  /*Обратите внимание, что у списков следует убрать стандартные стили: margin, padding, list-style-type*/
+  padding: 0px;
+  list-style-type: none;
+}
